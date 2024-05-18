@@ -59,7 +59,7 @@ def run_tester_on_bot(bot_name, scroll_top):
     while True:
         time.sleep(5)
         try:
-            location = pyautogui.locateOnScreen(report, confidence=0.8)
+            location = pyautogui.locateOnScreen(report)
             if location is not None:
                 pyautogui.moveTo(location[0]+5, location[1]+5)
                 pyautogui.click()
@@ -80,15 +80,11 @@ def wait_for_report(bot_name, timeout=1800):
                 time.sleep(1)
                 pyautogui.rightClick()
                 time.sleep(1)
-                pyautogui.moveTo(location[0]+50, location[1]+50)
+                pyautogui.moveTo(location[0]+60, location[1]+70)
                 time.sleep(1)
                 pyautogui.click()
                 time.sleep(1)
-                pyautogui.typewrite(f"{result_folder}", interval=0.5)
-                time.sleep(1)
-                pyautogui.press('enter')
-                time.sleep(1)
-                pyautogui.typewrite(f"{bot_name}", interval=0.5)
+                pyautogui.typewrite(f"{bot_name}", interval=0.75)
                 time.sleep(1)
                 pyautogui.press('enter')
                 time.sleep(1)
@@ -96,7 +92,7 @@ def wait_for_report(bot_name, timeout=1800):
                 time.sleep(2)
                 location = pyautogui.locateOnScreen(settings, confidence=0.8)
                 if location is not None:
-                    pyautogui.moveTo(location[0]+5, location[1]+5)
+                    pyautogui.moveTo(location[0]+20, location[1]+15)
                     pyautogui.click()
                     break
                 break
