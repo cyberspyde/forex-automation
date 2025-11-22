@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forex Automation Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero hero--mt4">
+        <div class="mt4 mt4--hero">
+            <div class="mt4__titlebar">
+                <span>MetaTrader 4 – Strategy Tester</span>
+                <div class="mt4__lights">
+                    <span></span>
+                    <span></span>
+                            <div>
+                                <p class="mt4__label">Symbol</p>
+                                <p class="mt4__value" id="tickSymbol">EURUSD</p>
+                            </div>
+                    <span></span>
+                </div>
+            </div>
+            <nav class="mt4__menu">
+                <button>File</button>
+                <button>View</button>
+                <button>Insert</button>
+                <button>Charts</button>
+                <button>Tools</button>
+                <button>Window</button>
+                <button>Help</button>
+            </nav>
+            <div class="mt4__toolbar">
+                <span>Expert Advisors ▾</span>
+                <span>Indicators ▾</span>
+                <span>Templates ▾</span>
+                <span>Symbol: <strong>USDCAD</strong></span>
+                <span>Run ▶</span>
+            </div>
+            <div class="hero__infobar">
+                <div class="hero__infobar-text">
+                    <p class="eyebrow">Portfolio Demo</p>
+                    <h1>MT4 Strategy Tester Automation</h1>
+                    <p class="lead">
+                        Netlify-hosted simulation of my PyAutoGUI + CyberFX toolkit. Scan Expert Advisors, replay backtests,
+                        and browse the archive of 600+ qualitative reviews.
+                    </p>
+                </div>
+                <div class="hero__infobar-actions">
+                    <button id="startDemo" class="btn primary">Start Demo</button>
+                    <button id="resetDemo" class="btn ghost">Reset</button>
+                </div>
+                <div class="hero__infobar-stats">
+                    <div>
+                        <span class="stat__value" id="statBots">0</span>
+                        <span class="stat__label">EAs Catalogued</span>
+                    </div>
+                    <div>
+                        <span class="stat__value" id="statReports">0</span>
+                        <span class="stat__label">Curated Reviews</span>
+                    </div>
+                    <div>
+                        <span class="stat__value" id="statTime">0s</span>
+                        <span class="stat__label">Simulated Runtime</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mt4__layout">
+                <section class="mt4__chart">
+                    <header class="mt4__chart-head">
+                        </div>
+                        <div>
+                            <p class="mt4__label">Bid</p>
+                            <p class="mt4__value" id="tickBid">1.08450</p>
+                        </div>
+                        <div>
+                            <p class="mt4__label">Ask</p>
+                            <p class="mt4__value" id="tickAsk">1.08465</p>
+                        </div>
+                        <div>
+                            <p class="mt4__label">Spread</p>
+                            <p class="mt4__value" id="tickSpread">1.5</p>
+                        </div>
+                    </header>
+                    <canvas id="tickCanvas" width="640" height="280"></canvas>
+                    <div class="mt4-priceboard">
+                        <div class="mt4-priceboard__head">
+                            <span>Live Price Board</span>
+                            <span class="mt4__badge" id="tickFeedStatus">LIVE</span>
+                        </div>
+                        <ul id="priceTape" class="mt4-priceboard__list"></ul>
+                    </div>
+                </section>
+                <section class="mt4__workspace">
+                    <aside class="mt4__sidebar">
+                        <div class="mt4__sidebar-head">
+                            <div>
+                                <p>Expert Advisors</p>
+                                <small id="mt4DatasetCount">0 items</small>
+                            </div>
+                            <span class="mt4__badge">Live data</span>
+                        </div>
+                        <ul class="mt4__ea-list" id="mt4EaList"></ul>
+                    </aside>
+                    <div class="mt4__tester">
+                        <div class="mt4__screen" id="mt4Screen">
+                            <div class="mt4__grid">
+                                <div>
+                                    <p class="mt4__label">Symbol</p>
+                                    <p class="mt4__value">USDCAD</p>
+                                </div>
+                                <div>
+                                    <p class="mt4__label">Period</p>
+                                    <p class="mt4__value">H1</p>
+                                </div>
+                                <div>
+                                    <p class="mt4__label">Model</p>
+                                    <p class="mt4__value">Every tick</p>
+                                </div>
+                                <div>
+                                    <p class="mt4__label">Spread</p>
+                                    <p class="mt4__value">3</p>
+                                </div>
+                            </div>
+                            <div class="mt4__toast" id="mt4Toast">Idle</div>
+                            <div class="mt4__cursor" id="mt4Cursor"></div>
+                        </div>
+                        <div class="mt4__footer">
+                            <div>
+                                <p class="mt4__label">Modeling Quality</p>
+                                <p class="mt4__value" id="mt4Quality">--%</p>
+                            </div>
+                            <div>
+                                <p class="mt4__label">Active Step</p>
+                                <p class="mt4__value" id="mt4ActiveStep">Waiting</p>
+                            </div>
+                            <div class="mt4__progress">
+                                <span id="mt4ProgressBar"></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="panel">
+            <h2>Workflow Snapshot</h2>
+            <div class="steps" id="stepper"></div>
+        </section>
+
+        <section class="panel">
+            <div class="panel__header">
+                <h2>Automation Log</h2>
+                <label class="speed">
+                    Speed
+                    <input type="range" id="speed" min="0.5" max="2" value="1" step="0.25">
+                </label>
+            </div>
+            <ul class="log" id="log"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Built with vanilla HTML/CSS/JS for Netlify hosting. Source: <code>cyberspyde.py</code> in this repository.
+        </p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,489 @@
+{
+  "generated_at": "2025-11-22T05:51:33.874140+00:00",
+  "summary": {
+    "total_expert_advisors": 647,
+    "total_reviews": 31,
+    "category_breakdown": {
+      "Goodfornow": 4,
+      "Testing": 39,
+      "Trash": 604
+    }
+  },
+  "advisors": [
+    {
+      "ea_name": "Innova EA",
+      "category": "Trash",
+      "personal_review": "failed 1k, 10k accounts, no potential. Just rubbish, probably created by chatgpt",
+      "approved": true,
+      "last_updated": "2024-06-04 08:07:09.434767",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Invincible Martingale",
+      "category": "Trash",
+      "personal_review": "copy of undefeated triangle, which is actually defeated by my tests in the past",
+      "approved": true,
+      "last_updated": "2024-06-04 08:06:43.582478",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Smart Auto Breakout Hedge EA",
+      "category": "Trash",
+      "personal_review": "Failed on backtest",
+      "approved": true,
+      "last_updated": "2024-05-24 01:58:45.806614",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "OrderBreak EA",
+      "category": "Trash",
+      "personal_review": "Failed on backtest",
+      "approved": true,
+      "last_updated": "2024-05-24 01:57:11.163219",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "One Inch Slap EA",
+      "category": "Trash",
+      "personal_review": "Good reviews, but failed on my backtest",
+      "approved": true,
+      "last_updated": "2024-05-24 01:56:39.991310",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Luna AI Pro",
+      "category": "Trash",
+      "personal_review": "History reader, also failed on backtest",
+      "approved": true,
+      "last_updated": "2024-05-24 01:54:48.706016",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "High Flying Trading HFT",
+      "category": "Trash",
+      "personal_review": "Failed on backtest",
+      "approved": true,
+      "last_updated": "2024-05-24 01:52:54.932472",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "HedgeHog Trend EA",
+      "category": "Trash",
+      "personal_review": "Failed on backtest, only lost money.",
+      "approved": true,
+      "last_updated": "2024-05-24 01:51:44.960974",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Gold Intelligence",
+      "category": "Trash",
+      "personal_review": "Failed on Backtest",
+      "approved": true,
+      "last_updated": "2024-05-24 01:50:30.317332",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Gold Hunt",
+      "category": "Trash",
+      "personal_review": "Bad ea",
+      "approved": true,
+      "last_updated": "2024-05-24 01:50:19.780166",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Elliot Fibo EA",
+      "category": "Trash",
+      "personal_review": "Failed on backtest",
+      "approved": true,
+      "last_updated": "2024-05-24 01:48:46.596693",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "CM Breakdown Level EA",
+      "category": "Trash",
+      "personal_review": "Failed on backtest",
+      "approved": true,
+      "last_updated": "2024-05-24 01:48:13.178129",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Algo Project EA",
+      "category": "Trash",
+      "personal_review": "Failed on backtest",
+      "approved": true,
+      "last_updated": "2024-05-24 01:46:47.476853",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Ultra Breakout EA",
+      "category": "Trash",
+      "personal_review": "Failed on backtest",
+      "approved": true,
+      "last_updated": "2024-05-24 01:45:40.278405",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Dragon Scalper EA",
+      "category": "Trash",
+      "personal_review": "Bad ea",
+      "approved": true,
+      "last_updated": "2024-05-10 09:52:19.193783",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "BiC - Breakfast in Canada",
+      "category": "Goodfornow",
+      "personal_review": "I ran my main account with this ea, tested in the demo, real, and backtest everything. It's a grid ea since it's optimized for usdcad which has low volatility, it will recover, maximum dd with an optimized set for 1k accounts in a year backtest was 30%+",
+      "approved": true,
+      "last_updated": "2024-05-09 17:54:52.425073",
+      "review_count": 2,
+      "sample_reviews": [
+        "Stopped using it, it could be profitable for like 6 months or so, until it blows, it won't blow, but definitely hit the big stop losses, and lose the 20-30% of the account in a single day. So, removing this from good list, because it's inconsistent.",
+        "Backtest 2 years, forward test 6 months, all positive, default middle risk set, dd is low, it\u2019s profitable and worth the money + time\r\n\r\nNow, running on 3 different accounts. \r\n\r\nFirst - main account in XM, micro account, 1:100 leverage, medium setfile, started April 2022. \r\n\r\nSecond account is on FBS, cent account, 1:100 leverage, 100 usd deposited, started in June 2022.\r\n\r\nThird account running my 50k FTMO challenge account, don't really sure about the drawdown percentage, but seems promising to me after 2 trial tests with this robot on FTMO. One failed with 20% DD, and other passed with 4% DD. Third one may fail, almost made 5%, DD is 2.55%, stable, but profit target didn't meet, so it might fail, doesn't really matter, coz real challenge is 30 days not 14."
+      ]
+    },
+    {
+      "ea_name": "Eazypips EA",
+      "category": "Testing",
+      "personal_review": "Average 10 cent martingale with RSI, opens too many positions to recover. But makes decent money with bearable dd",
+      "approved": true,
+      "last_updated": "2024-05-09 17:50:19.258328",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Another Brain EA",
+      "category": "Trash",
+      "personal_review": "You can't backtest this",
+      "approved": true,
+      "last_updated": "2024-05-09 14:47:30.706579",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "CyberVision EA",
+      "category": "Trash",
+      "personal_review": "History Reader",
+      "approved": true,
+      "last_updated": "2024-05-08 17:32:33.625477",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "4X Wave system",
+      "category": "Trash",
+      "personal_review": "Bad system, bad signals",
+      "approved": true,
+      "last_updated": "2024-05-06 19:06:28.867339",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Bitcoin wizard",
+      "category": "Trash",
+      "personal_review": "No profits",
+      "approved": true,
+      "last_updated": "2024-05-03 18:37:23.911982",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Black Dragon EA",
+      "category": "Trash",
+      "personal_review": "With default sets on 3k backtest, account was blown. Tried with single shot settings, made no money. The ea is too dumb, and very risky martingale.",
+      "approved": true,
+      "last_updated": "2024-05-03 18:27:44.143811",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Pirate One 1.6v",
+      "category": "Trash",
+      "personal_review": "Bad RR, 5 tp and 35 sl. Makes some money in 4 year backtest, but not worth it. Don't open a position for a penny profit risking 7 times more. Stupid ea",
+      "approved": true,
+      "last_updated": "2024-04-28 07:21:36.497751",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Diamond Pro v4",
+      "category": "Trash",
+      "personal_review": "I got too excited about this advisor and put it on my charts after doing a backtest. Everything seemed good until, I had a bad dream, where I blew my account. Well, I checked my results because of the GBPUSD pair from Diamond Pro, then I woke up, suddenly, realized that it was a dream, and checked my account, where my funds were still there. Then I just did a 4 year TDS test on Eurusd with a recommended set, then it blew the 3k account in 1 year. Guess I was wrong about this, so removing it from my account, and its grid system anyway, no worries. The news filter could have changed the backtest results, but its strategy is dumb, I'm not using it anymore.\r\n\r\nI did more testing with safer sets and managed to get a stable profit without blowing the account, might consider adding this to my account when it reaches 100k because then it would be a high-reward and low-risk portfolio expert advisor. But, right now, one pair has a 700 USD drawdown, to get 50 cents for every order. RR is ridiculous.",
+      "approved": true,
+      "last_updated": "2024-04-26 06:42:44.593978",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Ultra HG Ea",
+      "category": "Trash",
+      "personal_review": "This ea makes decent money in backtest, uses grid to recover trades, and doesn't lose money. So, will blow the account eventually. EA is free on telegram, author shared it for free. Not worth the time or the effort.",
+      "approved": true,
+      "last_updated": "2024-04-25 06:42:05.779753",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Yetti Pro",
+      "category": "Trash",
+      "personal_review": "Trash",
+      "approved": true,
+      "last_updated": "2024-04-25 05:03:40.599197",
+      "review_count": 1,
+      "sample_reviews": [
+        "Grid marti shit"
+      ]
+    },
+    {
+      "ea_name": "Sniper Pro v2",
+      "category": "Trash",
+      "personal_review": "Didn't blow the account but failed the dd test, 68% drawdown, very risky grid advisor. The developer is a scammer.",
+      "approved": true,
+      "last_updated": "2024-04-25 04:58:18.811587",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Friday pro",
+      "category": "Trash",
+      "personal_review": "Failed to execute orders properly according to comments",
+      "approved": true,
+      "last_updated": "2024-04-25 04:46:47.921908",
+      "review_count": 1,
+      "sample_reviews": [
+        "Useless, SQX generated code"
+      ]
+    },
+    {
+      "ea_name": "Perceptrader",
+      "category": "Trash",
+      "personal_review": "It's a good advisor, but still a martingale, so out of the good list\r\n\r\n- Custom settings are crucial; using unique set files designed for proprietary firms is recommended to avoid duplicate trades.\r\n- The developer ran it on a $400 account, suggesting that a starting balance of around $300 should suffice.\r\n- It's a manual EA with specific sets for Perceptrader AI.\r\n- Access to news websites and time servers is necessary for the news filter and time detection functionality to work correctly. Links need to be added in the MT4 terminal settings, including:\r\n  - https://www.worldtimeserver.com\r\n  - http://timesrv.online\r\n  - http://valeryservice.com\r\n  - http://valerytools.com",
+      "approved": true,
+      "last_updated": "2024-04-16 04:14:03.146420",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "InControl Reborn",
+      "category": "Goodfornow",
+      "personal_review": "Good ea",
+      "approved": true,
+      "last_updated": "2024-04-16 01:34:25.111552",
+      "review_count": 1,
+      "sample_reviews": [
+        "Using on my real account"
+      ]
+    },
+    {
+      "ea_name": "Gold Pulse EA",
+      "category": "Testing",
+      "personal_review": "Testing",
+      "approved": true,
+      "last_updated": "2024-04-16 00:18:34.833379",
+      "review_count": 1,
+      "sample_reviews": [
+        "IC Markets GlobalSC-Demo06\r\nMT4 Demo: 66659139\r\nPwd: Forex@123"
+      ]
+    },
+    {
+      "ea_name": "ATS Advisor v1.8",
+      "category": "Testing",
+      "personal_review": "Testing",
+      "approved": true,
+      "last_updated": "2024-04-16 00:18:21.497472",
+      "review_count": 1,
+      "sample_reviews": [
+        "IC Markets GlobalSC-Demo06\r\nMT4 Demo: 66659139\r\nPwd: Forex@123"
+      ]
+    },
+    {
+      "ea_name": "Grid Master Pro",
+      "category": "Testing",
+      "personal_review": "Testing",
+      "approved": true,
+      "last_updated": "2024-04-16 00:18:03.521825",
+      "review_count": 1,
+      "sample_reviews": [
+        "IC Markets GlobalSC-Demo06\r\nMT4 Demo: 66659139\r\nPwd: Forex@123"
+      ]
+    },
+    {
+      "ea_name": "News Catcher EA",
+      "category": "Testing",
+      "personal_review": "Testing",
+      "approved": true,
+      "last_updated": "2024-04-16 00:17:44.245212",
+      "review_count": 1,
+      "sample_reviews": [
+        "IC Markets GlobalSC-Demo06\r\nMT4 Demo: 66659139\r\nPwd: Forex@123"
+      ]
+    },
+    {
+      "ea_name": "Sunan Giri ",
+      "category": "Testing",
+      "personal_review": "Seems like a good ea, but the author doesn't have the product posted in the mql5 website, he sells it in private, and the signal could be different than the ea. His signal is good by the way",
+      "approved": true,
+      "last_updated": "2024-04-16 00:16:55.217961",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Gold Reaper",
+      "category": "Goodfornow",
+      "personal_review": "No gold reaper use breakout strategy and GTP use liquidity sweap strategy",
+      "approved": true,
+      "last_updated": "2024-04-15 12:43:48.808797",
+      "review_count": 1,
+      "sample_reviews": [
+        "This ea has some potential, good reviews, showing great results in a trending market."
+      ]
+    },
+    {
+      "ea_name": "Gold Investor",
+      "category": "Trash",
+      "personal_review": "Forex Gold Investor has 2 independent trading strategies integrated in while GOLD Scalper PRO has only one. One of the strategies of Forex Gold Investor is similar to GOLD Scalper PRO. Forex Gold Investor is better than Gold Scalper PRO - trades often and make more profit.",
+      "approved": true,
+      "last_updated": "2024-04-15 12:36:11.722929",
+      "review_count": 3,
+      "sample_reviews": [
+        "EA showed inconsistent profits and losses, many account blows, saving it into trash",
+        "Your patience is needed especially for Forex gold Investor because its not marti or grid so there will be loosing periods",
+        "My suggestion is to add forex gold investor rather the gold scalper pro - unknown"
+      ]
+    },
+    {
+      "ea_name": "Hamster Scalping EA",
+      "category": "Trash",
+      "personal_review": "trash, 10 cent code",
+      "approved": true,
+      "last_updated": "2024-04-15 12:34:18.205214",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "MI New Line EA",
+      "category": "Trash",
+      "personal_review": "Trash",
+      "approved": true,
+      "last_updated": "2024-04-15 12:32:29.159689",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "MG Super EA",
+      "category": "Trash",
+      "personal_review": "JUST TRASH",
+      "approved": true,
+      "last_updated": "2024-04-15 10:55:07.937843",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Corti EA",
+      "category": "Trash",
+      "personal_review": "Author is selling this for 150$, lifetime, did a lot demo tests, and blown demo accounts were removed from his myfxbook account. Also, his real signal has failed, today is 15th of April, and real account was stopped on the 2nd of april, after a huge drawdown. It was probably blown the account, not really sure, but anyways, it's shit ea, don't bother.",
+      "approved": true,
+      "last_updated": "2024-04-15 10:46:11.749155",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Gorilla EA v6 Monster",
+      "category": "Trash",
+      "personal_review": "EA can not be backtested. After some orders it will call the ExpertRemove function, developer is sussy baka, so, it's trash until someone comes with a proof.",
+      "approved": true,
+      "last_updated": "2024-04-10 20:55:34.384014",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Waka Waka",
+      "category": "Testing",
+      "personal_review": "Backtests are successful, getting 10% plus a year with mid-risk, no blows. The developer seems promising, the access violation said it's not 10-cent code.\r\n\r\nA lot of account blows, risky martingale, but still there are profitable users.",
+      "approved": true,
+      "last_updated": "2024-04-08 09:07:11.685385",
+      "review_count": 1,
+      "sample_reviews": [
+        "Waka Waka isn\u2019t the problem, the problem is your lot sizes, and having AUDNZD on! AUDNZD generates the least amount of profit and causes the most of drawdown. - @James7812"
+      ]
+    },
+    {
+      "ea_name": "ET9 EA",
+      "category": "Trash",
+      "personal_review": "History Reader",
+      "approved": true,
+      "last_updated": "2024-04-08 09:05:54.088890",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Scalp-M Pro 2.0 - Mforex",
+      "category": "Trash",
+      "personal_review": "MForex shit",
+      "approved": true,
+      "last_updated": "2024-04-07 20:32:05.045713",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Precis EA 2.0",
+      "category": "Trash",
+      "personal_review": "Mforex shit",
+      "approved": true,
+      "last_updated": "2024-04-07 20:30:34.701813",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Profit Keeper 24",
+      "category": "Trash",
+      "personal_review": "Can not be backtested",
+      "approved": true,
+      "last_updated": "2024-04-07 20:29:15.495762",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Probrave EA - mforex",
+      "category": "Trash",
+      "personal_review": "MForex author has no real signals, bots without reviews, funny pricing. Author from Ukraine.",
+      "approved": true,
+      "last_updated": "2024-04-07 20:27:12.077434",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Gold Rush Pro",
+      "category": "Testing",
+      "personal_review": "Testing",
+      "approved": true,
+      "last_updated": "2024-04-05 17:53:16.399516",
+      "review_count": 0,
+      "sample_reviews": []
+    },
+    {
+      "ea_name": "Gold Luxe EA",
+      "category": "Trash",
+      "personal_review": "Trash",
+      "approved": true,
+      "last_updated": "2024-04-05 17:51:46.817275",
+      "review_count": 0,
+      "sample_reviews": []
+    }
+  ]
+}
